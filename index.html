@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <title>Мой сайт</title>
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header class="header-container container">
+    <img src="logo.png" alt="Логотип" class="logo">
+    <div class="header-text">Колледж ВятГУ +7 (8332) 74-26-74</div>
+    <button class="header-button"onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfTb687ZcnVb_XPLhfHjSj7_KFaAdHV5i48moFF9fSVXQQ0UA/viewform?usp=sf_link';">Получить консультацию</button>
+    <a href="https://t.me/Ladno_i_tak_soiDet" class="social-icon"><img src="telegram-icon.png" alt="Telegram"></a>
+    <a href="https://vk.com/id579543127" class="social-icon"><img src="vk-icon.png" alt="VK"></a>  
+  </header>
+
+  <!-- Панель навигации -->
+  <nav class="nav-container container">
+    <a href="#about" class="nav-link">Обо мне</a>
+    <a href="#skills" class="nav-link">Умения</a>
+    <a href="#projects" class="nav-link">Мои проекты</a>
+    <a href="#contacts" class="nav-link">Контакты</a>
+  </nav>
+
+  <!-- Главная секция -->
+  <section class="nachalo container">
+    <h1>Добро пожаловать!</h1>
+  </section>
+
+  <!-- Обо мне -->
+  <section id="about" class="section-container container">
+    <h2>Обо мне</h2>
+    <p>Привет! Меня зовут Артём, и я студент колледжа ВятГУ, где изучаю программирование. 
+
+      Мой главный интерес — это разработка приложений и Telegram-ботов. Увлекаюсь написанием кода на Python и C#, и мне нравится решать задачи, связанные с автоматизацией и созданием интерактивных решений.
+      
+      Уже успел пройти практику в колледже, что помогло мне закрепить навыки на практике. Одним из значимых достижений стало 3-е место нашей команды в соревнованиях по разработке Telegram-ботов в Кировской области.
+      
+      Мои сильные стороны — это ответственность, творческий подход и способность концентрироваться на поставленных задачах. Я всегда стараюсь находить креативные решения и доводить проекты до совершенства.</p>
+  </section>
+
+  <!-- Умения -->
+  <section id="skills" class="section-container container">
+    <h2>Умения</h2>
+    <div class="skills">
+        <div class="skill-item">
+            <img src="web-development-icon.jpg" alt="Веб разработка">
+            <p>Веб разработка</p>
+            <p>HTML, CSS, JS</p>
+        </div>
+        <div class="skill-item">
+            <img src="telegram-icon.png" alt="Разработка Telegram ботов">
+            <p>Разработка Telegram ботов</p>
+            <p>Python, Aiogram, SQL</p>
+        </div>
+        <div class="skill-item">
+            <img src="game-development-icon.png" alt="Разработка игр">
+            <p>Разработка игр</p>
+            <p>Unity, C#, Scratch</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Мои проекты -->
+  <section id="projects" class="section-container container">
+    <h2>Мои проекты</h2>
+    <div class="projects">
+      <div class="project-item hover-effect">
+        <a href="https://github.com/Art-Cheater/TgBot">
+          <img src="project1-image.png" alt="Project 1">
+          <p>Проект 1</p>
+        </a>
+      </div>
+      <div class="project-item hover-effect">
+        <a href="https://github.com/Art-Cheater/educational-practice">
+          <img src="project2-image.jpg" alt="Project 2">
+          <p>Проект 2</p>
+        </a>
+      </div>
+      <div class="project-item hover-effect">
+        <a href="https://github.com/Art-Cheater/Site-business_card">
+          <img src="project3-image.png" alt="Project 3">
+          <p>Проект 3</p>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Контакты -->
+  <section id="contacts" class="section-container container">
+    <h2>Контакты</h2>
+    <div class="contacts">
+      <div class="contacta-item">
+        <img src="gmail-icon.jpg" alt="Email">
+        <a href="mailto:adomrahev@gmail.com" target="_blank">Email: adomrahev@gmail.com</a>
+      </div>
+      <div class="contacta-item">
+        <img src="telegram-icon.png" alt="Telegram">
+        <a href="https://t.me/Ladno_i_tak_soiDet" target="_blank">Telegram: t.me/Ladno_i_tak_soiDet</a>
+      </div>
+      <div class="contacta-item">
+        <img src="vk-icon.png" alt="VK">
+        <a href="https://vk.com/id579543127" target="_blank">VK: vk.com/id579543127</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 ВятГУ. Все права защищены.</p>
+  </footer>
+</body>
+</html>
